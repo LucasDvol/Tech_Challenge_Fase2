@@ -1,5 +1,12 @@
 Thech Challenge Fase 2 [Grupo 33]
 
+Equipe do projeto:
+Edson Yuji Murata, 
+Lucas David de Oliveira, 
+Rafael Ishiy Macedo e 
+Raphaela Rodrigues Coelho
+
+
 Etapa 1: Extração dos dados
 Dados foram extraídos de forma manual a partir das tabelas disponibilizadas em https://br.investing.com/indices/bovespa-historical-data. 
 Foi selecionado o perído de 01/1990 a 06/2024, e posteriormente feito o upload para este repositório.
@@ -43,22 +50,19 @@ Dividimos a base em 80% para treino e 20% teste.
 
 Passo 4: Avaliação do Modelo
 
+Utilizamos R2 e RMSE para a avlaiação do modelo. O resultado foi satisfatório conforme demonstrado:
 
-![image](https://github.com/user-attachments/assets/90f0f51a-992c-47c1-afd6-65a4d672be66)
-![image](https://github.com/user-attachments/assets/5957b2a3-16fd-4498-94af-e47ff701ea0a)
+![image](https://github.com/user-attachments/assets/f165d747-4574-4d3e-96c4-7b1835bedf40)
+
+Para facilitar o entendimento de quão próxima a previsão foi dos números reais, plotamos o resultado:
+
+![image](https://github.com/user-attachments/assets/8dff61ad-4ad5-4491-b07e-c321b9cd55f1)
+
 
 
 Etapa 3: Conclusão
 
+Desde a extração manual dos dados até o pré-processamento e a construção do modelo, cada etapa foi fundamental para garantir a precisão e a robustez dos resultados obtidos. A escolha do LSTM foi validada pela sua capacidade de capturar padrões complexos e dependências temporais nos dados, o que é essencial em uma série temporal como a do mercado financeiro.
+Os resultados indicaram uma boa aderência do modelo às tendências observadas. Mas vale ressaltar que o mercado fianceiro é influenciado por inúmeros fatores externos e imprevisíveis, sendo recomendado assim a inclusão de informações de outras origens, visando enriquecer as análises preditivas acerca do tema.
 
-
-
-
-
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/2eedbbe2-da72-4883-8f92-c2e8a1233890)
 
